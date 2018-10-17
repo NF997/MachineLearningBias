@@ -12,9 +12,9 @@ In practice that means that black defendants will on average get harder sentence
 
 
 ### Possible Countermeasures
-As seen in the criminal justice example, probably the first thing which comes to mind when thinking about possible countermeasures to get rid of biases in machine learning, is to just remove sensible features like gender, race or religious orientation from the input datasets. It turns out, that in the physical world, this approach works quite well sometimes. E.g. in the 1970s many of the top orchestras around the world modified their auditions by putting a curtain between the jury and the person trying to get the job so that the jury was no longer able to see the musician - and implicitly not the gender of the musician. After this protocol change there were soon significantly more female concert musicians in the orchestras then before. Unfortunately, it turned out, that in the world of data it is not that easy to remove biases by applying this technique. Consider the demographical map showing the racial self-identification across chicago in the year 2000.
+As seen in the criminal justice example, probably the first thing which comes to mind when thinking about possible countermeasures to get rid of biases in machine learning, is to just remove sensible features like gender, race or religious orientation from the input datasets. It turns out, that in the physical world, this approach works quite well sometimes. E.g. in the 1970s many of the top orchestras around the world modified their auditions by putting a curtain between the jury and the person trying to get the job so that the jury was no longer able to see the musician - and implicitly not the gender of the musician. After this protocol change there were soon significantly more female concert musicians in the orchestras then before. Unfortunately, it turned out, that in the world of data it is not that easy to remove biases by applying this technique. Consider the demographical map showing the racial self-identification across chicago in the year 2000 [15].
 
-![Demographic map of chicago](https://visual.ly/node/image/54900?_w=1080)
+![Demographic map of chicago](./chicagoTaxonomy.png)
 
 As suggested, we remove race from our training data set. What we initially did not consider is the postal code. But when looking at the map, it is obvious, that the postal code on its own is a pretty good estimation for the race of the citizens. So the general problem is, that there may be a lot of features which are highly correlated with the features we initially called "sensitive", like for example race, gender a sexual orientation. The postal code example might be fairly simplistic, but in real data sets with hundreds of features it might not always be that obvious which features to remove in order to eliminate e.g. racist or sexist bias [2]. This is also exactly what happened in the criminal justice example mentioned above. 
 
@@ -61,6 +61,8 @@ As described above, bias in machine learning can occur in a huge variety of flav
 [13] https://qz.com/653084/microsofts-disastrous-tay-experiment-shows-the-hidden-dangers-of-ai/
 
 [14] https://www.nytimes.com/2017/09/20/business/media/facebook-racist-ads.html
+
+[15] https://visual.ly/node/image/54900?_w=1080
 
 **Not cited but also interesting:**
 
