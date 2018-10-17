@@ -62,7 +62,7 @@ As described above, bias in machine learning can occur in a huge variety of flav
 
 [14] https://www.nytimes.com/2017/09/20/business/media/facebook-racist-ads.html
 
-[15] https://visual.ly/node/image/54900?_w=1080
+[15] https://visual.ly/community/infographic/human-rights/taxonomy-transitions
 
 **Not cited but also interesting:**
 
