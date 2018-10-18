@@ -64,7 +64,7 @@ As described above, bias in machine learning can occur in a huge variety of flav
 
 [15] https://visual.ly/community/infographic/human-rights/taxonomy-transitions
 
-**Not cited but also interesting:**
+**Not cited but nevertheless interesting:**
 
 https://medium.com/humane-ai/ethics-in-machine-learning-54a71a75875c
 
